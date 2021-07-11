@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/TheSpeedX/TBomb"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
+  <a href="https://github.com/Meeharaj/BombIT"><img src="https://i.ibb.co/F4HBKqm/BombIT.png" alt="BombIT"></a>
   <br>
-  TBomb v2.1b
+  BombIT v2.1b
   <br>
 </h1>
 
@@ -18,7 +18,7 @@
 - The application requires active internet connection to contact the APIs
 - You would not be charged for any SMS/calls dispatched as a consequence of this script
 - For best performance, use single thread with considerable delay time
-- Always ensure that you are using the latest version of TBomb and have Python 3
+- Always ensure that you are using the latest version of BombIT and have Python 3
 - This application must not be used to cause harm/discomfort/trouble to others
 - By using this, you agree that you cannot hold the contributors responsible for any misuse
 
@@ -57,10 +57,10 @@ Before continuing make sure following requirements are satisfied:
 Install `BombIT` package by running:
 
 ```shell script
-pip3 install tbomb
+pip3 install BombIT
 ```
 
-Run TBomb by just typing:
+Run BombIT by just typing:
 ```shell script
 tbomb
 ```
@@ -73,7 +73,7 @@ Git installation methods are not universal and are likely to differ between dist
 
 >Running `BombIT.sh` as sudo miscofigures files ownership. It is recommended not to run it as sudo
 
-Run these commands to clone and run TBomb.
+Run these commands to clone and run BombIT.
 
 #### For Termux
 
@@ -81,8 +81,8 @@ To use the bomber type the following commands in Termux:
 ```shell script
 pkg install git -y 
 pkg install python -y 
-git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
+git clone https://github.com/Meeharaj/BombIT.git
+cd BombIT
 ./BombIT.sh
 ```
 
@@ -95,11 +95,11 @@ apk add python3
 apk add py3-pip
 apk add ruby
 gem install toilet
-git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
+git clone https://github.com/Meeharaj/BombIT.git
+cd BombIT
 pip3 install -r requirements.txt
-chmod +x TBomb.sh
-./TBomb.sh
+chmod +x BombIT.sh
+./BombIT.sh
 ```
 
 #### For Debian-based GNU/Linux distributions
@@ -107,7 +107,7 @@ chmod +x TBomb.sh
 To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/Meeharaj/BombIT.git
 cd BombIT
 bash BombIT.sh
 ```
@@ -129,7 +129,7 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-git clone https://github.com/TheSpeedX/TBomb.git
+git clone https://github.com/Meeharaj/BombIT.git
 cd BombIT
 bash BombIT.sh
 ```
@@ -144,19 +144,8 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 - Watch Indian Bombing Method [here](https://youtu.be/9KWkwsr_QGw)  
 - Watch International Bombing Method [here](https://youtu.be/JqsHkyIcnPM).  
 
-## Contributors
 
-- Catch **[t0xic0der](https://github.com/t0xic0der)** at https://atlasdoc.netlify.app
-- Check **[Avinash](https://github.com/AvinashReddy3108)** at https://github.com/AvinashReddy3108
-- Mail **[scpketer](https://github.com/scpketer)** at scpketer@protonmail.ch
-- Mail **[Stefan](https://github.com/0n1cOn3)** at 0n1cOn3@gmx.ch
-- Ping **Rieltar** at https://t.me/RieltarReborn
-
-
-### Donators:
-
-- **[34D30Y](34db0y@protonmail.com)**
-- **SC AMAN**
+  
 
 ### TODO:
 
@@ -167,12 +156,8 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 - [x] Add Update Feature without git (download zip and extract)
 - [x] Split code into multiple files (after Deprecation)
 
-
-### Contact US  
-
-For Queries: [Telegram Group](https://t.me/TBombChat)  
-[Check Out My YouTube Channel](https://www.youtube.com/c/SpeedXTech)
-
+##contact us
+- https://www.instagram.com/meeharaj_j
 ## FAQ
 
 - Poor internet connection:
@@ -189,25 +174,25 @@ For Queries: [Telegram Group](https://t.me/TBombChat)
 
 - Why is the limit so low?
 
-```Due the amount of requests, the APIs can die. To prevent a bigger outtake of TBomb, it has been limited.``` 
+```Due the amount of requests, the APIs can die. To prevent a bigger outtake of BombIT, it has been limited.``` 
 
 - Help, i got the error that the requirements aren't installed, even when the installer has successfully reached the main menu
 
 The Easy Method:
 
-```pip3 install tbomb```
+```pip3 install BombIT```
 
 Then execute by simply running
 
-```tbomb```
+``BombIT``
 
 The Git Method:  
-Clone the repo and Switch to the TBomb Directory and execute this command:  
+Clone the repo and Switch to the BombIT Directory and execute this command:  
 ```pip3 install -r requirements.txt```
 
-- Help, i can't execute TBomb.sh!
+- Help, i can't execute BombIT.sh!
 
-Run TBomb Directly with
+Run BombIT Directly with
 ```python3 bomber.py```
 
 - VPN? Proxy's? 
