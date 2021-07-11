@@ -92,7 +92,7 @@ def do_zip_update():
         zip_url = "https://github.com/Meeharaj/BombIT/archive/dev.zip"
         dir_name = "TBomb-dev"
     else:
-        zip_url = "https://github.com/Meeharaj/BombIT?archive/master.zip"
+        zip_url = "https://github.com/Meeharaj/BombIT/archive/master.zip"
         dir_name = "BombIT-master"
     print(ALL_COLORS[0]+"downloading ZIP....."+ RESET_ALL)
     response = requests.get(zip_url)
