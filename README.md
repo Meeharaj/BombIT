@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Meeharaj/BombIT"><img src="https://https://www.bing.com/images/search?q=Bomb+It+Art&FORM=IRIBIP/BombIT.png" alt="BombIT"></a>
+  <a href="https://github.com/Meeharaj/BombIT"><img src="https://th.bing.com/th/id/R.47b3de4a7ed7017a1d7a638a9b3d9c34?rik=xPCUJVDuetrAuw&riu=http%3a%2f%2fis4.mzstatic.com%2fimage%2fthumb%2fPurple%2fv4%2f65%2f9d%2fb6%2f659db685-ad0d-4d41-47b9-31c633efd6fe%2fsource%2f600x600bb.jpg&ehk=08V9cb8GKek3EnXbrvMj7nguC%2ffJw%2fDX12ICAfTCbvQ%3d&risl=&pid=ImgRaw/BombIT.png" alt="BombIT"></a>
   <br>
   BombIT v2.1b
   <br>
