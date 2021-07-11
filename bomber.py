@@ -89,11 +89,11 @@ def format_phone(num):
 def do_zip_update():
     success = False
     if DEBUG_MODE:
-        zip_url = "https://github.com/TheSpeedX/TBomb/archive/dev.zip"
+        zip_url = "https://github.com/Meeharaj/BombIT/archive/dev.zip"
         dir_name = "TBomb-dev"
     else:
-        zip_url = "https://github.com/TheSpeedX/TBomb?archive/master.zip"
-        dir_name = "TBomb-master"
+        zip_url = "https://github.com/Meeharaj/BombIT?archive/master.zip"
+        dir_name = "BombIT-master"
     print(ALL_COLORS[0]+"downloading ZIP....."+ RESET_ALL)
     response = requests.get(zip_url)
     if response.status_code == 200:
@@ -155,7 +155,7 @@ def do_git_update():
         mesgdcrt.GenraleMessage("the eun command :")
         print(
             "git cheakout . && "
-            "git pull https://github.com/thespeedX/Tbomb.git HEAD" )
+            "git pull https://github.com/Meeharaj/BombIT.git HEAD" )
         sys.exit() 
 
 
@@ -173,7 +173,7 @@ def cheak_for_updates():
         return 
     mesgdcrt.SectionMessage("cheeaking for updates")
     fver = request.get(
-        "https://raw,githubusercontent.com/theSeedXTBomb/master/.version"
+        "https://raw,githubusercontent.com/Meeharaj/BombIT/master/.version"
     ).text.strip()
     if fver != ___VERSION__:
         mesgdcrt.WarningMessage("An update is available")
@@ -188,9 +188,9 @@ def notifying():
     try:
 
         if DEBUG_MODE:
-            url = "https://github.com/TheSeedX/Tbomb/raw/dev/.notify"
+            url = "https://github.com/Meeharaj/BombIT/raw/dev/.notify"
         else:
-            url = "https://github.com/TheSpeedX/TBomb/raw/master/.notify"
+            url = "https://github.com/Meeharaj/BombIT/raw/master/.notify"
         noti = requests.get(url).upper()
         if len(noti)>10:
             mesgdcrt.SectionMessage("NOTIFICATION:+noti")
