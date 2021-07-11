@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Meeharaj/BombIT"><img src="https://i.ibb.co/F4HBKqm/BombIT.png" alt="BombIT"></a>
+  <a href="https://github.com/Meeharaj/BombIT"><img src="https://https://www.bing.com/images/search?q=Bomb+It+Art&FORM=IRIBIP/BombIT.png" alt="BombIT"></a>
   <br>
   BombIT v2.1b
   <br>
